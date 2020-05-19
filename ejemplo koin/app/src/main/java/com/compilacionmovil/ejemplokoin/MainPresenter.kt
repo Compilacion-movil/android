@@ -12,6 +12,6 @@ class OtherMainPresenter(
     private val number: Int
 ) {
 
-    fun fetch() = apiProvider.fetchDataWithActivity(activity, number)
+    fun fetch() = apiProvider.fetchDataWithActivity(number)
 }
 
